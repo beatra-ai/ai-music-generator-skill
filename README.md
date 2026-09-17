@@ -14,6 +14,10 @@ Turn a theme, lyrics, or reference audio into songs, instrumentals, and soundtra
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="Cover art for &quot;Green Lights All the Way&quot;, a song about a late-night drive through an empty city. AI-generated with Beatra."></p>
+
+*Cover art for "Green Lights All the Way", a song about a late-night drive through an empty city. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.1.7 |
@@ -41,6 +45,20 @@ Or paste this into your agent:
 
 ```text
 Install the music-generation-studio skill from https://github.com/beatra-ai/ai-music-generator-skill (folder skills/music-generation-studio), then follow its SKILL.md to connect my Beatra account.
+```
+
+## Examples
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="Cover art for &quot;Green Lights All the Way&quot;, a song about a late-night drive through an empty city. AI-generated with Beatra."></p>
+
+[▶ Listen (MP3)](assets/sample.mp3)
+
+*First 60 seconds of "Green Lights All the Way", an indie-pop song with a female lead, written and produced from a late-night city drive theme. AI-generated with Beatra.*
+
+Prompt:
+
+```text
+Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
 
 ## What you get

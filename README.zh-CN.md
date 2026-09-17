@@ -14,6 +14,10 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/cover.webp" width="800" alt="歌曲《Green Lights All the Way》的封面，画面是深夜空无一人的城市街道。由 Beatra AI 生成。"></p>
+
+*歌曲《Green Lights All the Way》的封面，画面是深夜空无一人的城市街道。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.1.7 |
@@ -40,6 +44,20 @@ gh skill install beatra-ai/ai-music-generator-skill music-generation-studio
 
 ```text
 从 https://github.com/beatra-ai/ai-music-generator-skill 安装 music-generation-studio skill（目录 skills/music-generation-studio），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 效果示例
+
+<p align="center"><img src="assets/cover.webp" width="800" alt="歌曲《Green Lights All the Way》的封面，画面是深夜空无一人的城市街道。由 Beatra AI 生成。"></p>
+
+[▶ 试听（MP3）](assets/sample.mp3)
+
+*独立流行歌曲《Green Lights All the Way》前 60 秒，女声主唱，主题是深夜在城市里开车。由 Beatra AI 生成。*
+
+提示词：
+
+```text
+Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
 
 ## 你能得到什么
