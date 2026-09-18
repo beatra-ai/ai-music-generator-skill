@@ -20,7 +20,7 @@ Turn a theme, lyrics, or reference audio into songs, instrumentals, and soundtra
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.1.7 |
+| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.1.8 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/music-generation-studio). Report issues there.
 
