@@ -20,7 +20,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.2.1 |
+| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.2.4 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/music-generation-studio) 自动发布，问题请到那里反馈。
 
@@ -90,16 +90,17 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 
 ### 只能使用 Suno 吗？
 
-Suno 5.5 是默认创作模型。你也可以明确选择当前可用且适合需求的其他音乐模型。
+Suno 6 是默认创作模型。你也可以明确选择当前可用且适合需求的其他音乐模型。
 
 ### 可以根据参考音频制作新编曲吗？
 
 可以。先说明希望保留和改变的部分，再根据生成结果试听旋律、人声质感、能量、乐器和编曲是否符合方向。
 
-## 更新
+## 更新与安全
 
-安装后的 skill 每天最多检查一次新版本，替换前先校验官方归档，任何一步失败都不会动你已安装的版本。
-随时可以关闭，见 skill 内的 `references/automatic-updates-and-safety.md`。
+自 2026 年 10 月的版本起，本 skill 不再包含自更新程序：它只运行你安装的文件，从不自行替换。
+请用安装时的工具更新——`npx skills update music-generation-studio` 或 `gh skill update music-generation-studio`。
+详见 skill 内的 `references/updates-and-security.md`。
 
 ## 许可证
 

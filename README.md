@@ -20,7 +20,7 @@ Turn a theme, lyrics, or reference audio into songs, instrumentals, and soundtra
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.2.1 |
+| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.2.4 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/music-generation-studio). Report issues there.
 
@@ -91,18 +91,18 @@ Set the target duration, ending, loop point, energy curve, dialogue space, and i
 
 ### Does it only use Suno?
 
-Suno 5.5 is the creative default. You can explicitly choose another currently available music model when its capabilities fit the brief.
+Suno 6 is the creative default. You can explicitly choose another currently available music model when its capabilities fit the brief.
 
 ### Can it use reference audio for a new arrangement?
 
 Yes. Choose what should carry over and what should change, then review the returned melody, vocal character, energy, instrumentation, and arrangement against that direction.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update music-generation-studio` or `gh skill update music-generation-studio`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
