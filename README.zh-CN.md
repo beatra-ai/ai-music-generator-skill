@@ -67,6 +67,15 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 - **文生音乐** — 2 个模型（Suno 6、MiniMax Music 3.0）；歌词最多 5000 字符
 - **参考音频生音乐** — 2 个模型（Suno 6、MiniMax Music 3.0）；歌词最多 5000 字符
 
+## 为什么用 Beatra，而不是直接调用模型 API
+
+- **一个账号用到本 skill 的全部模型** — 文生音乐 2；参考音频生音乐 2（截至 2026-10-16），一次 Beatra 登录即可使用，不必分别管理各家模型的 key。
+- **花不花钱由你决定** — 只有你明确要求这次生成，或批准显示实时积分估算的确认卡后才会付费。
+- **先策划，再生成** — skill 先帮你规划、指导和检查，再在 Beatra 上生成。
+- **文件可以核验** — `skills/` 下的每个文件都与 cdn.beatra.ai 上的发布归档逐字节一致，每次推送前用 SHA-256 校验。
+- **更新由你掌控** — 不含自更新程序；用安装时的工具更新。
+- **在你的 Agent 里运行** — Claude Code、Codex、OpenClaw。
+
 ## 你能得到什么
 
 - **把音乐想法发展完整** — 把零散灵感整理成彼此呼应的歌名、记忆点、歌词、结构、人声与编曲。
@@ -118,6 +127,7 @@ Suno 6 是默认创作模型。你也可以明确选择当前可用且适合需�
 - 官网 — https://www.beatra.cn
 - 文档 — https://docs.beatra.cn
 - 控制台 — https://console.beatra.cn
+- 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt（索引）· https://www.beatra.cn/llms-full.txt（全部 skill 合成一个文件）
 
 - 微信小程序 — 国内用户微信扫码使用
 
