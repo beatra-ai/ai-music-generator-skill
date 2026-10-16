@@ -20,7 +20,7 @@ Turn a theme, lyrics, or reference audio into songs, instrumentals, and soundtra
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.2.4 |
+| [`music-generation-studio`](skills/music-generation-studio) | [SKILL.md](skills/music-generation-studio/SKILL.md) | 0.2.5 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/music-generation-studio). Report issues there.
 
@@ -60,6 +60,13 @@ Prompt:
 ```text
 Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
+
+## Specs
+
+As of 2026-10-16. Live list: https://docs.beatra.ai/en/docs/models
+
+- **Text to music** — 2 models (Suno 6, MiniMax Music 3.0); lyrics up to 5000 characters
+- **Reference audio to music** — 2 models (Suno 6, MiniMax Music 3.0); lyrics up to 5000 characters
 
 ## What you get
 
@@ -109,3 +116,9 @@ Details: `references/updates-and-security.md` inside the skill.
 [MIT-0](LICENSE) — free to use, modify, and redistribute, including
 commercially. No attribution required. Same terms as these skills carry on
 ClawHub.
+
+## Links
+
+- Website — https://beatra.ai
+- Docs — https://docs.beatra.ai
+- Console — https://console.beatra.ai
