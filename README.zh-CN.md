@@ -60,12 +60,17 @@ gh skill install beatra-ai/ai-music-generator-skill music-generation-studio
 Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
 
-## 规格
+## 技术规格与输出限制
 
 截至 2026-10-16。实时列表：https://docs.beatra.ai/zh/docs/models
 
-- **文生音乐** — 2 个模型（Suno 6、MiniMax Music 3.0）；歌词最多 5000 字符
-- **参考音频生音乐** — 2 个模型（Suno 6、MiniMax Music 3.0）；歌词最多 5000 字符
+- **上传** — 单个文件最大 100 MB；同时适用下方各模型的输入限制
+- **文生音乐** — 2 个模型（Suno 6、MiniMax Music 3.0）；MP3
+  - Suno 6：提示词最多 500、歌词最多 5000、标题最多 80 字符
+  - MiniMax Music 3.0：提示词最多 2000、歌词最多 3500、标题最多 100 字符
+- **参考音频生音乐** — 2 个模型（Suno 6、MiniMax Music 3.0）；MP3
+  - Suno 6：提示词最多 500、歌词最多 5000、标题最多 80 字符；参考音频 6–480 秒（FLAC、MP3、WAV）
+  - MiniMax Music 3.0：提示词最多 300、歌词最多 1000、标题最多 100 字符；参考音频 6–360 秒，最大 50 MB（FLAC、MP3、WAV）
 
 ## 为什么用 Beatra，而不是直接调用模型 API
 
