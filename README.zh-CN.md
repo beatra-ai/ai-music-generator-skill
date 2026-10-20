@@ -1,6 +1,8 @@
 # AI Music Generator Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [Lyrics to Song Skill](https://github.com/beatra-ai/lyrics-to-song-skill)
 
 从主题、歌词或参考音频生成歌曲、纯音乐和配乐，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
@@ -54,6 +56,12 @@ gh skill install beatra-ai/ai-music-generator-skill music-generation-studio
 [▶ 试听（MP3）](assets/sample.mp3)
 
 *独立流行歌曲《Green Lights All the Way》前 60 秒，女声主唱，主题是深夜在城市里开车。由 Beatra AI 生成。*
+
+在你的 Agent 里这样说：
+
+```text
+写一首轻快的英文独立流行歌，女声主唱，主题是深夜开车穿过空荡的城市：开头克制安静，最后一段副歌放开。
+```
 
 提示词：
 

@@ -1,6 +1,8 @@
 # AI Music Generator Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [Lyrics to Song Skill](https://github.com/beatra-ai/lyrics-to-song-skill)
 
 Turn a theme, lyrics, or reference audio into songs, instrumentals, and soundtracks, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
@@ -56,6 +58,12 @@ Install the music-generation-studio skill from https://github.com/beatra-ai/ai-m
 [▶ Listen (MP3)](assets/sample.mp3)
 
 *First 60 seconds of "Green Lights All the Way", an indie-pop song with a female lead, written and produced from a late-night city drive theme. AI-generated with Beatra.*
+
+Ask your agent:
+
+```text
+Write and produce an upbeat English indie-pop song with a female lead about a late-night drive through an empty city: restless and quiet at the start, carefree by the last chorus.
+```
 
 Prompt:
 
