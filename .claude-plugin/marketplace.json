@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ai-music-generator-skill",
+  "description": "The Beatra AI Music Generator skill as a Claude Code plugin.",
+  "owner": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "plugins": [
+    {
+      "name": "music-generation-studio",
+      "source": "./",
+      "description": "Turn a theme, lyric, scene, or reference audio into reviewable songs, instrumentals, BGM, and soundtracks with a clear creative direction and focused revisions."
+    }
+  ]
+}

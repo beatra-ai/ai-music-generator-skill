@@ -1,0 +1,20 @@
+{
+  "name": "ai-music-generator-skill",
+  "interface": {
+    "displayName": "AI Music Generator"
+  },
+  "plugins": [
+    {
+      "name": "music-generation-studio",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

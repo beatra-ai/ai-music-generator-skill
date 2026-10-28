@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ai-music-generator-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-music-generator-skill
+claude plugin install music-generation-studio@ai-music-generator-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-music-generator-skill
+codex plugin add music-generation-studio@ai-music-generator-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-music-generator-skill
+copilot plugin install music-generation-studio@ai-music-generator-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-music-generator-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash

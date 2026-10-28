@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "music-generation-studio",
+  "displayName": "AI Music Generator",
+  "version": "0.2.9",
+  "description": "Turn a theme, lyric, scene, or reference audio into reviewable songs, instrumentals, BGM, and soundtracks with a clear creative direction and focused revisions.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/music-generation-studio",
+  "repository": "https://github.com/beatra-ai/ai-music-generator-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}
