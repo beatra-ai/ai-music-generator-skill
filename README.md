@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-music-generator-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-music-generator-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -97,6 +103,15 @@ Prompt:
 ```text
 Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Text — A theme, a lyric line, a scene, or your own lyrics | — | — |
+| **Input** | Audio — Reference track for a new version (optional) | FLAC, MP3, WAV | 6–480 s |
+| **Output** | Text — Genre, mood, structure, singable lyrics, and vocal direction | — | editable |
+| **Output** | Audio — Songs, instrumentals, BGM, and jingles to audition | — | — |
 
 ## Technical Specifications & Output Limits
 
@@ -141,19 +156,19 @@ It can develop and create original songs, instrumentals, BGM, video and game sou
 
 ### Can it write lyrics or use lyrics I already have?
 
-Yes. It can develop singable lyrics from a brief or use complete lyrics you provide, keeping the words aligned with the selected genre, mood, structure, vocal, and arrangement direction.
+Yes. It can develop singable lyrics from a brief or use complete lyrics you provide, keeping the words in line with the genre, mood, structure, vocal, and arrangement you set.
 
 ### How can I shape instrumentals, loopable BGM, and track length?
 
-Set the target duration, ending, loop point, energy curve, dialogue space, and instrumental palette, then listen to the result and refine the timing or edit point for its destination.
+Set the target duration, ending, loop point, energy curve, dialogue space, and instrumental palette, and the track is made to that length and loop point for where it will play.
 
-### Does it only use Suno?
+### Which music model does it use?
 
-Suno 6 is the creative default. You can explicitly choose another currently available music model when its capabilities fit the brief.
+Suno 6 by default, or another available music model you name when it fits the brief.
 
 ### Can it use reference audio for a new arrangement?
 
-Yes. Choose what should carry over and what should change, then review the returned melody, vocal character, energy, instrumentation, and arrangement against that direction.
+Yes. Name what should carry over and what should change, and the new arrangement is built around those choices: melody, vocal character, energy, instrumentation, and arrangement.
 
 ## Updates and security
 
@@ -164,9 +179,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill).
 
 ## Links
 

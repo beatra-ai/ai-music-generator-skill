@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-music-generator-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-music-generator-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -95,6 +101,15 @@ https://github.com/beatra-ai/ai-music-generator-skill から music-generation-st
 ```text
 Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
+
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | テキスト：テーマ、歌詞の一節、映像の場面、または自作の歌詞 | — | — |
+| **入力** | 音声：アレンジ用の参考音源（任意） | FLAC、MP3、WAV | 6〜480 秒 |
+| **出力** | テキスト：ジャンル、感情、構成、歌いやすい歌詞、ボーカルの方向 | — | 編集可能 |
+| **出力** | 音声：試聴できる楽曲、インスト、BGM、ジングル | — | — |
 
 ## 技術仕様と出力上限
 
@@ -134,15 +149,15 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 
 ### インスト、ループBGM、目標の長さはどう設計しますか？
 
-目標尺、終わり方、ループ位置、エネルギーの流れ、会話の余白、楽器編成を指定し、生成後に全体を聴いて用途に合うテンポや編集点を整えます。
+目標尺、終わり方、ループ位置、エネルギーの流れ、会話の余白、楽器編成を指定すると、その長さとループ位置で、流す場面に合わせた曲を作ります。
 
-### Sunoだけを使いますか？
+### どの音楽モデルを使いますか？
 
-Suno 6が既定です。要件に合う別の利用可能な音楽モデルを明示的に選ぶこともできます。
+標準はSuno 6です。要件に合えば、利用できる別の音楽モデルを指定することもできます。
 
 ### 参考音源から新しいアレンジを作れますか？
 
-はい。残したい部分と変えたい部分を決め、生成された旋律、声の質感、エネルギー、楽器、アレンジが方向性に合うか確認します。
+はい。残したい部分と変えたい部分を伝えると、旋律、声の質感、エネルギー、楽器、アレンジをそれに沿って組み立てた新しいアレンジを作ります。
 
 ## 更新とセキュリティ
 
@@ -152,7 +167,9 @@ Suno 6が既定です。要件に合う別の利用可能な音楽モデルを�
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill)が適用されます。
 
 ## リンク
 

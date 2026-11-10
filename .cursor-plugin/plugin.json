@@ -9,5 +9,19 @@
   "homepage": "https://beatra.ai/skills/music-generation-studio",
   "repository": "https://github.com/beatra-ai/ai-music-generator-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI music generator",
+    "AI song maker",
+    "Suno 6",
+    "AI songwriting",
+    "AI lyrics generator",
+    "lyrics to song",
+    "text to music",
+    "instrumental music generator",
+    "AI BGM generator",
+    "video soundtrack generator",
+    "multilingual song generator",
+    "reference audio to music"
+  ],
   "logo": "assets/icon.png"
 }

@@ -10,6 +10,20 @@
   "homepage": "https://beatra.ai/skills/music-generation-studio",
   "repository": "https://github.com/beatra-ai/ai-music-generator-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI music generator",
+    "AI song maker",
+    "Suno 6",
+    "AI songwriting",
+    "AI lyrics generator",
+    "lyrics to song",
+    "text to music",
+    "instrumental music generator",
+    "AI BGM generator",
+    "video soundtrack generator",
+    "multilingual song generator",
+    "reference audio to music"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +33,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/music-generation-studio",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use Music Generation Studio to write a bright electro-pop song for our board game café's anniversary, with an easy chorus."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

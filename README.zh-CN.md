@@ -62,6 +62,12 @@ copilot plugin install music-generation-studio@ai-music-generator-skill
 gemini extensions install https://github.com/beatra-ai/ai-music-generator-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-music-generator-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -95,6 +101,15 @@ gh skill install beatra-ai/ai-music-generator-skill music-generation-studio
 ```text
 Upbeat English indie-pop single about a late-night drive through an empty city. Arc: restless and quiet at the start, lifting into carefree release by the final chorus. Driving straight eighth-note groove, mid-fast tempo feel. Chorus-pedal electric guitar arpeggios, pulsing analog synth bass, bright vintage polysynth pads, crisp live drums with tambourine on the chorus. Compact conversational verses, rising pre-chorus, wide vowel-led chorus hook, short instrumental synth-guitar break, final chorus gains stacked harmonies, clean ending. Warm, slightly breathy female lead, natural English. Polished modern indie mix, wide stereo, warm tape sheen.
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 文本：一个主题、一句歌词、一段画面，或你自己写的歌词 | — | — |
+| **输入** | 音频：用于改编的参考音频（可选） | FLAC、MP3、WAV | 6–480 秒 |
+| **输出** | 文本：曲风、情绪、结构、可唱歌词和人声方向 | — | 可编辑 |
+| **输出** | 音频：可试听的歌曲、纯音乐、BGM 和广告歌 | — | — |
 
 ## 技术规格与输出限制
 
@@ -143,15 +158,15 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 
 ### 怎样设计纯音乐、循环 BGM 和目标时长？
 
-设置目标时长、结尾、循环点、能量变化、对白空间和乐器方向，生成后试听完整结果，再针对使用场景调整节奏或剪辑点。
+设置目标时长、结尾、循环点、能量变化、对白空间和乐器方向，音乐就按这个时长和循环点、为使用场景来做。
 
-### 只能使用 Suno 吗？
+### 用哪个音乐模型？
 
-Suno 6 是默认创作模型。你也可以明确选择当前可用且适合需求的其他音乐模型。
+默认用 Suno 6，也可以指定其他适合需求的可用音乐模型。
 
 ### 可以根据参考音频制作新编曲吗？
 
-可以。先说明希望保留和改变的部分，再根据生成结果试听旋律、人声质感、能量、乐器和编曲是否符合方向。
+可以。说明希望保留和改变的部分，新编曲就围绕这些来做：旋律、人声质感、能量、乐器和编曲。
 
 ## 更新与安全
 
@@ -161,7 +176,9 @@ Suno 6 是默认创作模型。你也可以明确选择当前可用且适合需�
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill)。
 
 ## 相关链接
 
