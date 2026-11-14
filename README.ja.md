@@ -27,6 +27,8 @@
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/music-generation-studio) から自動的に公開されています。問題の報告はそちらへお願いします。
 
+このスキルは `ai-music-generator` としても知られています（インストール名：`music-generation-studio`）。
+
 ## インストール
 
 [`skills`](https://skills.sh) CLI を使う場合：
@@ -82,6 +84,8 @@ gh skill install beatra-ai/ai-music-generator-skill music-generation-studio
 https://github.com/beatra-ai/ai-music-generator-skill から music-generation-studio スキル（フォルダ skills/music-generation-studio）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
 
+クリーン環境で動作確認済み：Antigravity CLI (2026-11-09)。
+
 ## 作例
 
 <p align="center"><img src="assets/cover.webp" width="800" alt="深夜に誰もいない街をドライブする曲「Green Lights All the Way」のカバーアート。Beatra AI で生成。"></p>
@@ -113,7 +117,7 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 
 ## 技術仕様と出力上限
 
-2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
+2026-11-14 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
 
 - **アップロード** — 1 ファイルあたり最大 100 MB。下記の各モデルの入力制限も適用されます
 - **テキストから音楽** — 2 モデル（Suno 6、MiniMax Music 3.0）／MP3
@@ -173,6 +177,7 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 
 ## リンク
 
+- スキルページ — https://beatra.ai/skills/music-generation-studio?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill
 - ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill
 - ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill
 - コンソール — https://console.beatra.ai

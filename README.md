@@ -27,6 +27,8 @@ Turn a theme, lyrics, or reference audio into songs, instrumentals, and soundtra
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/music-generation-studio). Report issues there.
 
+Also known as `ai-music-generator` (installed under the Beatra slug `music-generation-studio`).
+
 ## Install
 
 With the [`skills`](https://skills.sh) CLI:
@@ -84,6 +86,8 @@ Or paste this into your agent:
 Install the music-generation-studio skill from https://github.com/beatra-ai/ai-music-generator-skill (folder skills/music-generation-studio), then follow its SKILL.md to connect my Beatra account.
 ```
 
+Tested in clean-room CI: Antigravity CLI (2026-11-09).
+
 ## Examples
 
 <p align="center"><img src="assets/cover.webp" width="800" alt="Cover art for &quot;Green Lights All the Way&quot;, a song about a late-night drive through an empty city. AI-generated with Beatra."></p>
@@ -115,7 +119,7 @@ Upbeat English indie-pop single about a late-night drive through an empty city. 
 
 ## Technical Specifications & Output Limits
 
-As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
+As of 2026-11-14. Live list: https://docs.beatra.ai/en/docs/models
 
 - **Uploads** — up to 100 MB per file; the per-model input limits below also apply
 - **Text to music** — 2 models (Suno 6, MiniMax Music 3.0); MP3
@@ -127,7 +131,7 @@ As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 ## Why use Beatra instead of calling model APIs directly
 
-- **One account for every model this skill uses** — Text to music 2; Reference audio to music 2 (Suno 6, MiniMax Music 3.0) (as of 2026-10-18), behind one Beatra sign-in; no keys from individual model providers to manage.
+- **One account for every model this skill uses** — Text to music 2; Reference audio to music 2 (Suno 6, MiniMax Music 3.0) (as of 2026-11-14), behind one Beatra sign-in; no keys from individual model providers to manage.
 - **You decide what gets paid for** — Paid renders run only when you ask for that exact render or approve its card, which shows the live credit estimate.
 - **Direction before rendering** — the skill plans, directs, and reviews the work, then renders it on Beatra.
 - **Files you can verify** — every file under `skills/` matches the release archive on cdn.beatra.ai byte for byte, checked by SHA-256 before each push.
@@ -186,6 +190,7 @@ Media generation runs on Beatra's cloud service under the [Beatra Terms of Servi
 
 ## Links
 
+- Skill page — https://beatra.ai/skills/music-generation-studio?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill
 - Website — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill
 - Docs — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-music-generator-skill
 - Console — https://console.beatra.ai
